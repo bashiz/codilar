@@ -1,0 +1,50 @@
+.rel1{
+  position: relative;
+  height:500px;
+  margin-top:100px;
+margin-left:100px;
+margin-right:100px;
+  width:calc(100%-100px)%;
+  background-color:#c70039;
+  left:0%;
+  bottom:30%;
+}
+.abs1{
+  position: absolute;
+left:0%;
+  background-color:#ffc305;
+  width:150px;
+    height:150px;
+}
+.abs2{
+  position: absolute;
+  bottom: 0%;
+  left:0%;
+  background-color:#ffc305;
+  width:150px;
+    height:150px;
+}
+.abs3{
+  position: absolute;
+right:0%;
+bottom:0%;
+  background-color:#ffc305;
+  width:150px;
+    height:150px;
+}
+.abs4{
+  position: absolute;
+right:0%;
+  background-color:#ffc305;
+  width:150px;
+    height:150px;
+}
+@media screen and (max-width: 600px){
+  .rel1{
+    height:400px;
+  }
+  .abs1,.abs2,.abs3,.abs4{
+    width:100px;
+      height:100px;
+  }
+}
