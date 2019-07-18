@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h3 class="head">Feedback</h3>
+
+<form>
+  <label class="label">First Name:</label>
+  <input type="text" placeholder="First Name" id="fname" name="fname">
+  <label class="label">Last Name:</label>
+  <input type="text" placeholder="Last Name" id="lname" name="lname">
+  <label class="label">Email:</label>
+  <input type="email" placeholder="Email" id="lname" name="lname">
+  <label class="label">Date of Birth:</label>
+  <input type="date"  placeholder="Data of Birth" id="lname" name="lname">
+  <label class="label">Gender:</label>
+  <select>
+  <option>Male</option>
+  <option>Female</option>
+
+</select>
+<label class="label">Feedback:</label>
+  <textarea rows="4" cols="50" placeholder="Feedback"></textarea>
+  <input class="sub";type="Submit" value="Submit">
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$('select').hover(function() {
+
+  $(this).attr('size', $('option').length);
+}, function() {
+$("option").show();
+  $(this).attr('size', 1);
+});
+
+</script>
+
+</body>
+</html>
